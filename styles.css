@@ -69,6 +69,7 @@ body {
 
 .hero-section-content > h1 {
     font-size: 48px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
@@ -110,6 +111,7 @@ body {
 .information-container > h1 {
     font-size: 36px;
     color: #1F2937;
+    font-weight: 700;
 }
 
 .information-container > .img-container {
@@ -137,5 +139,72 @@ body {
 .image-div > p {
     font-size: 18px;
     color: rgba(0, 0, 0, 0.849);
+    text-align: center;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+
+    padding: 48px 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.quote-div {
+    max-width: 40%;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote-div > p:nth-child(1) {
+    color: #1F2937;
+}
+
+.quote-div > p:nth-child(2) {
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.account-container {
+    background-color: whitesmoke;
+    padding: 60px 0px;
+}
+
+.sign-up-container {
+    margin: 0 auto;
+    padding: 32px;
+    border-radius: 12px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    max-width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up-container > button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    padding: 8px 24px;
+    border: 1px solid #F9FAF8;
+    border-radius: 8px;
+    max-width: 6rem;
+}
+
+.sign-up-information > p {
+    font-size: 12px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 32px;
     text-align: center;
 }
